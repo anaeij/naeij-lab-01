@@ -166,7 +166,7 @@ model_data <- bfi_analysis |>
     Extraversion,
     Conscientiousness
   ) |>
-  filter(age >= 30) |> 
+  filter(age >= 35) |> 
   drop_na()
 
 ```
